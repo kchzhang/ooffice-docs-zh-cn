@@ -6,8 +6,8 @@
 
 ## 资源链接
 
-[文档地址](https://knoxzhang.gitee.io/ooffice-docs-zh-cn/)
-[镜像地址](https://hub.docker.com/r/knoxzhang/oo-ce-docker-license)
+1. [文档地址](https://knoxzhang.gitee.io/ooffice-docs-zh-cn/)
+2. [镜像地址](https://hub.docker.com/r/knoxzhang/oo-ce-docker-license)
 
 ## 联系方式
 
@@ -24,12 +24,12 @@ QQ 交流群：<a href="https://jq.qq.com/?_wv=1027&k=m01BIUzX" target="_blank">
 <table>
     <tr>
         <td>
-            <image width="220" src="./docs/public/wxpay.JPG">
+            <img width="220" src="./docs/public/wxpay.JPG"/>
         </td>
         <td>
         </td>
         <td>            
-            <image width="220" height="300" src="./docs/public/alipay.JPG">
+            <img width="220" height="300" src="./docs/public/alipay.JPG"/>
         </td>
     </tr>
 </table>
