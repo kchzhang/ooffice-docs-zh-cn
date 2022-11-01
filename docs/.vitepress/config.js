@@ -357,7 +357,8 @@ export default {
                     { text: '中文字体', link: '/update-fonts/' },
                     { text: '中文字号', link: '/update-fonts-size/' },
                     { text: '字体名称', link: '/update-fonts-name/' },
-                    { text: '开启token验证', link: '/open-token/' }
+                    { text: 'token验证', link: '/open-token/' },
+                    { text: 'default.json', link: '/default-json/' },
                 ]
             },
             {

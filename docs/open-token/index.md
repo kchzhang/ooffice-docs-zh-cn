@@ -5,8 +5,8 @@
 ```
 
 ::: tip 温馨提示
-7.1 版本之后 生成的 token的入参与前端集成的 config 格式要严格保持一致
-
+1. 7.1 版本之后 生成的 token的入参与前端集成的 config 格式要严格保持一致
+2. 7.2 版本之后 默认开启 jwt 验证，<a href="#关闭token验证">去关闭</a>
 :::
 
 例如
@@ -63,8 +63,11 @@ token
 
 ```
 
+## 关闭token验证
 
-
+```sh
+ docker run --name=ooffice -i -t -d -p 8080:80 -e JWT_ENABLED=false --restart=always knoxzhang/oo-ce-docker-license
+```
 
 
 
