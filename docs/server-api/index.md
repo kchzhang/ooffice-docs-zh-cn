@@ -39,7 +39,7 @@ Response
 
 ### 强制保存
 
-地址：POST http://documentserver/coauthoring/CommandService/.ashx
+地址：POST http://documentserver/coauthoring/CommandService.ashx
 
 ```json
 {
