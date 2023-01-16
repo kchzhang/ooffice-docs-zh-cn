@@ -6,7 +6,7 @@
 
 QQ：601424688
 
-微信号：KnoxZhang0
+<!-- 微信号：KnoxZhang0 -->
 
 <script setup>
 import Footer from '../components/Footer.vue'
