@@ -1,29 +1,32 @@
 export default {
-    base: '/ooffice-docs-zh-cn',
-    title: 'OOffice v7.2.0.204',
-    description: 'Just playing around.',
-    lastUpdated: true,
-    lang: 'zh-cn',
-    themeConfig: {
-        aapath: '/wwww',
-        footer: {
-            message: 'Released under the MIT License.',
-            copyright: 'Copyright © 2022-present Evan You'
-        },
-        docFooter: {
-            prev: '上一页',
-            next: '下一页'
-        },
-        // algolia: {
-        //     // 暂时不能搜索
-        //     apiKey: '4d229127b851466802c920c128287059',
-        //     indexName: 'index_name'
-        // },
-        socialLinks: [
-            { icon: 'github', link: 'https://github.com/kchzhang/ooffice-docs-zh-cn' },
-            {
-                icon: {
-                    svg: `<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve">  <image id="image0" width="16" height="16" x="0" y="0"
+  base: "/ooffice-docs-zh-cn",
+  title: "OOffice v7.2.0.204",
+  description: "Just playing around.",
+  lastUpdated: true,
+  lang: "zh-cn",
+  themeConfig: {
+    aapath: "/wwww",
+    footer: {
+      message: "Released under the MIT License.",
+      copyright: "Copyright © 2022-present Evan You",
+    },
+    docFooter: {
+      prev: "上一页",
+      next: "下一页",
+    },
+    // algolia: {
+    //     // 暂时不能搜索
+    //     apiKey: '4d229127b851466802c920c128287059',
+    //     indexName: 'index_name'
+    // },
+    socialLinks: [
+      {
+        icon: "github",
+        link: "https://github.com/kchzhang/ooffice-docs-zh-cn",
+      },
+      {
+        icon: {
+          svg: `<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve">  <image id="image0" width="16" height="16" x="0" y="0"
                     href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
                 AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAdVBMVEUAAADbABjaABTaABPZ
                 ABT/ACvZABXaABPZABTZABPjSVb2yMz9+Pj////88fLkSlf++/v3y871wcXhPErfLDvdITH++vrj
@@ -35,13 +38,13 @@ export default {
                 MDE6Mzc6MTcrMDA6MDApdZt0AAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIyLTA5LTE3VDAxOjM3OjE3
                 KzAwOjAwWCgjyAAAACh0RVh0ZGF0ZTp0aW1lc3RhbXAAMjAyMi0wOS0xN1QwMTozNzoxNyswMDow
                 MA89AhcAAAAASUVORK5CYII=" />
-                </svg>`
-                },
-                link: 'https://gitee.com/knoxZhang/ooffice-docs-zh-cn'
-            },
-            {
-                icon: {
-                    svg: `<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="128px" height="128px" viewBox="0 0 128 128" enable-background="new 0 0 128 128" xml:space="preserve">  <image id="image0" width="128" height="128" x="0" y="0"
+                </svg>`,
+        },
+        link: "https://gitee.com/knoxZhang/ooffice-docs-zh-cn",
+      },
+      {
+        icon: {
+          svg: `<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="128px" height="128px" viewBox="0 0 128 128" enable-background="new 0 0 128 128" xml:space="preserve">  <image id="image0" width="128" height="128" x="0" y="0"
                     href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAIAAABMXPacAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
                 AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QA/wD/AP+gvaeTAAAA
                 CXBIWXMAABYlAAAWJQFJUiTwAAA50ElEQVR42t29ebDlVXU/+ll77+9wpjv2RCNtMzVNiwjYIhoH
@@ -309,66 +312,68 @@ export default {
                 JXRFWHRkYXRlOm1vZGlmeQAyMDIyLTA5LTIxVDA0OjM3OjQ1KzAwOjAwmnO99gAAACh0RVh0ZGF0
                 ZTp0aW1lc3RhbXAAMjAyMi0wOS0yMVQwNDozNzo0NSswMDowMM1mnCkAAAAbdEVYdGV4aWY6U29m
                 dHdhcmUAd3d3Lm1laXR1LmNvbSIA83YAAAAASUVORK5CYII=" />
-                </svg>`
-                },
-                link: 'https://jq.qq.com/?_wv=1027&k=m01BIUzX'
-            }
+                </svg>`,
+        },
+        link: "https://jq.qq.com/?_wv=1027&k=m01BIUzX",
+      },
+    ],
+    lastUpdatedText: "更新时间",
+    sidebar: [
+      {
+        text: "快速开始",
+        collapsible: true,
+        items: [
+          {
+            text: "前端集成",
+            link: "/integration/",
+            items: [
+              { text: "Vue集成", link: "/integration/vue" },
+              { text: "React集成", link: "/integration/react" },
+            ],
+          },
+          { text: "Docker 文档", link: "/docker-docs/" },
         ],
-        lastUpdatedText: '更新时间',
-        sidebar: [
-            {
-                text: '快速开始',
-                collapsible: true,
-                items: [
-                    { 
-                        text: '前端集成', 
-                        link: '/integration/',             
-                        items: [
-                            { text: 'Vue集成', link: '/integration/vue' },
-                            { text: 'React集成', link: '/integration/react' }
-                        ]
-                    },
-                    { text: 'Docker 文档', link: '/docker-docs/' }
-                ]
-            },
-            {
-                text: '开发者',
-                collapsible: true,
-                items: [
-                    { text: '前端SDK', link: '/sdk/' },
-                    { text: '高级参数', link: '/advanced-parameters/' },
-                    { text: '服务API', link: '/server-api/' },
-                    { text: '常见错误', link: '/trouble-shoot/' },
-                    {
-                        text: '插件',
-                        link: '/plugins-api/',
-                        items: [
-                            { text: '字段插入替换', link: '/plugins-api/field' },
-                        ]
-                    },
-                    { text: '更新日志', link: '/update-log/' },
-
-                ]
-            },
-            {
-                text: '部署',
-                collapsible: true,
-                items: [
-                    { text: '中文字体', link: '/update-fonts/' },
-                    { text: '中文字号', link: '/update-fonts-size/' },
-                    { text: '字体名称', link: '/update-fonts-name/' },
-                    { text: 'token验证', link: '/open-token/' },
-                    { text: 'default.json', link: '/default-json/' },
-                ]
-            },
-            {
-                text: '联系方式',
-                collapsible: true,
-                items: [
-                    { text: '联系方式', link: '/contact-us/' },
-                    { text: '捐赠', link: '/donate-us/' }
-                ]
-            }
-        ]
-    }
-}
+      },
+      {
+        text: "开发者",
+        collapsible: true,
+        items: [
+          { text: "前端SDK", link: "/sdk/" },
+          { text: "高级参数", link: "/advanced-parameters/" },
+          { text: "服务API", link: "/server-api/" },
+          { text: "常见错误", link: "/trouble-shoot/" },
+          {
+            text: "插件",
+            link: "/plugins-api/",
+            items: [{ text: "字段插入替换", link: "/plugins-api/field" }],
+          },
+          { text: "更新日志", link: "/update-log/" },
+        ],
+      },
+      {
+        text: "部署",
+        collapsible: true,
+        items: [
+          { text: "中文字体", link: "/update-fonts/" },
+          { text: "中文字号", link: "/update-fonts-size/" },
+          { text: "字体名称", link: "/update-fonts-name/" },
+          { text: "token验证", link: "/open-token/" },
+          { text: "default.json", link: "/default-json/" },
+        ],
+      },
+      {
+        text: "付费定制",
+        collapsible: true,
+        items: [{ text: "定制功能", link: "/paid-custom/" }],
+      },
+      {
+        text: "联系方式",
+        collapsible: true,
+        items: [
+          { text: "联系方式", link: "/contact-us/" },
+          { text: "捐赠", link: "/donate-us/" },
+        ],
+      },
+    ],
+  },
+};
