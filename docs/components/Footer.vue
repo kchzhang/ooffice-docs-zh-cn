@@ -6,7 +6,7 @@
     <br />
     <br />
     <br />
-    <div><h4>如果有帮助到您，请作者喝杯咖啡吧</h4></div>
+    <div><h4>{{props.tip || '如果有帮助到您，请作者喝杯咖啡吧'}}</h4></div>
     <table>
       <tr>
         <td>
@@ -29,6 +29,8 @@
 
 <script setup>
 import { withBase, useData } from "vitepress";
+
+const props = defineProps(['tip']);
 
 const { theme } = useData();
 if (!import.meta.env.SSR) {
