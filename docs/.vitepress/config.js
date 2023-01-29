@@ -332,6 +332,7 @@ export default {
             ],
           },
           { text: "Docker 文档", link: "/docker-docs/" },
+          { text: "试一试", link: "/try-it/" },
         ],
       },
       {
