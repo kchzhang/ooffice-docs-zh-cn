@@ -1,6 +1,6 @@
 # 免费镜像
 
-## base镜像 （<span style="color:red">￥0.00</span>）
+## base 镜像 （<span style="color:red">￥0.00</span>）
 <!-- <span style="color:#000000;font-size:16px;text-decoration:line-through">￥99.00</span> -->
 
 ### 包含功能
