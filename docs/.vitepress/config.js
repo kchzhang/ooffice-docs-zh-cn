@@ -366,6 +366,7 @@ export default {
         text: "付费定制",
         collapsible: true,
         items: [
+          { text: "免费镜像", link: "/paid-custom-free/" },
           { text: "pro 镜像", link: "/paid-custom-image/" },
           { text: "定制功能", link: "/paid-custom/" },
         ],

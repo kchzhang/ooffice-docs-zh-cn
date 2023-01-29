@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as a,a as d}from"./app.5729650b.js";const s=JSON.parse('{"title":"\u8BD5\u4E00\u8BD5","description":"","frontmatter":{},"headers":[],"relativePath":"try-it/index.md","lastUpdated":1674986278000}'),r={name:"try-it/index.md"},i=d("",2),o=[i];function p(n,l,m,c,h,_){return t(),a("div",null,o)}const y=e(r,[["render",p]]);export{s as __pageData,y as default};

@@ -1,9 +1,7 @@
 ## 介绍
 
-1. 无并发数限制
-2. 支持移动端编辑
-3. <span style="color:red">提供付费定制</span>
-
+1. 无限制
+2. <span style="color:red">提供免费镜像</span>
 
 ## 资源链接
 
