@@ -51,3 +51,10 @@ docker commit -p -a "Knox" -m "plugins" <容器ID> ooffice:v1
     }
 ```
 :::
+
+
+<script setup>
+import Footer from '../components/Footer.vue'
+</script>
+
+<Footer/>
