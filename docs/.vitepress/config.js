@@ -1,6 +1,6 @@
 export default {
   base: "/ooffice-docs-zh-cn",
-  title: "OOffice v7.2.0.204",
+  title: "OOffice v7.1.1.23",
   description: "Just playing around.",
   lastUpdated: true,
   lang: "zh-cn",
