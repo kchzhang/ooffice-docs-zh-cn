@@ -1,6 +1,6 @@
 # 付费镜像
 
-## pro 镜像 （<span style="color:red">￥ 69.00</span>）
+## pro 镜像 （<span style="color:red">￥ 99.00</span>）
 
 <!-- <span style="color:#000000;font-size:16px;text-decoration:line-through">￥99.00</span> -->
 
