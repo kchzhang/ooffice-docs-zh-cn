@@ -14,3 +14,10 @@
 ## 下载
 
 <a href="../watermark.zip.png" download="watermark.zip" target="_blank">水印例子代码下载</a>
+
+
+<script setup>
+import Footer from '../components/Footer.vue'
+</script>
+
+<Footer/>
