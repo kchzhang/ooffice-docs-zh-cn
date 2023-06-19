@@ -16,6 +16,15 @@ sonWin.helloFun();
 // hello world
 ```
 
+##  如何代理到指定服务器
+
+::: tip 温馨提示
+
+以 NGINX 为例
+
+<a href="../proxy-conf/#与应用集成-同域访问">查看详细配置</a>
+:::
+
 <script setup>
 import Footer from '../components/Footer.vue'
 </script>

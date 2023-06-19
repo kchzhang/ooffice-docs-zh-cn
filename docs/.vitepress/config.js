@@ -490,6 +490,7 @@ export default {
           { text: "字体名称", link: "/update-fonts-name/" },
           { text: "token验证", link: "/open-token/" },
           { text: "default.json", link: "/default-json/" },
+          { text: "代理配置", link: "/proxy-conf/" },
         ],
       },
       {
