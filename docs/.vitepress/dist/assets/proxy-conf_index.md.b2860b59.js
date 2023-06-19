@@ -149,7 +149,7 @@ import{_ as s}from"./chunks/Footer.eb69e644.js";import{o as n,c as a,b as p,a as
 <span class="line"></span>
 <span class="line"><span style="color:#A6ACCD;">map </span><span style="color:#89DDFF;">$</span><span style="color:#A6ACCD;">http_x_forwarded_host </span><span style="color:#89DDFF;">$</span><span style="color:#A6ACCD;">the_host </span><span style="color:#89DDFF;">{</span></span>
 <span class="line"><span style="color:#A6ACCD;">    default </span><span style="color:#89DDFF;">$</span><span style="color:#A6ACCD;">http_x_forwarded_host</span><span style="color:#89DDFF;">;</span></span>
-<span class="line"><span style="color:#A6ACCD;">    </span><span style="color:#89DDFF;">&quot;&quot;</span><span style="color:#A6ACCD;"> </span><span style="color:#89DDFF;">$</span><span style="color:#A6ACCD;">host</span><span style="color:#89DDFF;">;</span></span>
+<span class="line"><span style="color:#A6ACCD;">    </span><span style="color:#89DDFF;">&quot;&quot;</span><span style="color:#A6ACCD;"> </span><span style="color:#89DDFF;">$</span><span style="color:#A6ACCD;">host:</span><span style="color:#89DDFF;">$</span><span style="color:#A6ACCD;">server_port</span><span style="color:#89DDFF;">;</span></span>
 <span class="line"><span style="color:#89DDFF;">}</span></span>
 <span class="line"></span>
 <span class="line"><span style="color:#A6ACCD;">map </span><span style="color:#89DDFF;">$</span><span style="color:#A6ACCD;">http_upgrade </span><span style="color:#89DDFF;">$</span><span style="color:#A6ACCD;">proxy_connection </span><span style="color:#89DDFF;">{</span></span>

@@ -175,7 +175,7 @@ map $http_x_forwarded_proto $the_scheme {
 
 map $http_x_forwarded_host $the_host {
     default $http_x_forwarded_host;
-    "" $host;
+    "" $host:$server_port;
 }
 
 map $http_upgrade $proxy_connection {
