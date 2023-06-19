@@ -202,7 +202,7 @@ server {
 }
 ```
 
-## 与应用集成 (同域访问)
+## 与应用集成 (非虚拟路径)
 假设你已经有一个应用地址为 `https://www.A.com`，同时想把编辑器部署在这个域名下，这是一个合适的场景：
 
 `https://www.A.com/7.4.0-163/web-apps/apps/api/documents/api.js`
@@ -229,7 +229,7 @@ map $http_upgrade $proxy_connection {
 
 proxy_set_header Upgrade $http_upgrade;
 proxy_set_header Connection $proxy_connection;
-proxy_set_header X-Forwarded-Host $the_host/7.4.0-163;
+# proxy_set_header X-Forwarded-Host $the_host/7.4.0-163;
 proxy_set_header X-Forwarded-Proto $the_scheme;
 proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
 
