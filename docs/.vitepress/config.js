@@ -476,6 +476,7 @@ export default {
               { text: "与插件通信", link: "/plugins-api/message" },
               { text: "字段插入替换", link: "/plugins-api/field" },
               { text: "水印", link: "/plugins-api/watermark" },
+              { text: "跨域通信", link: "/plugins-api/cross" },
             ],
           },
           { text: "更新日志", link: "/update-log/" },
