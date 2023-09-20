@@ -19,3 +19,9 @@ FileConverter.converter.inputLimits[2].zip.uncompressed = "500MB"
 docker restart <容器ID>
 ```
 
+
+<script setup>
+import Footer from '../components/Footer.vue'
+</script>
+
+<Footer/>
