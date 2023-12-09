@@ -498,15 +498,16 @@ export default {
         text: "免费镜像",
         collapsible: true,
         items: [
-          { text: "免费镜像-7.1.1.23", link: "/paid-custom-free/7.1.1.23" },
-          { text: "免费镜像-7.5.1.23", link: "/paid-custom-free/7.5.1.23" },
+          { text: "免费镜像-7.1.1", link: "/paid-custom-free/7.1.1.23" },
+          { text: "免费镜像-7.5.1", link: "/paid-custom-free/7.5.1.23" },
         ],
       },
       {
         text: "付费镜像",
         collapsible: true,
         items: [
-          { text: "pro 镜像-7.1.1.23", link: "/paid-custom-image/" },
+          { text: "pro 镜像-7.1.1", link: "/paid-custom-image/" },
+          { text: "pro 镜像-7.5.1", link: "/paid-custom-image/7.5.1.23" },
           { text: "定制功能", link: "/paid-custom/" },
         ],
       },
