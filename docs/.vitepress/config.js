@@ -1,6 +1,6 @@
 export default {
   base: "/ooffice-docs-zh-cn",
-  title: "OOffice v7.1.1.23",
+  title: "OOffice",
   description: "Just playing around.",
   lastUpdated: true,
   lang: "zh-cn",
@@ -495,11 +495,18 @@ export default {
         ],
       },
       {
-        text: "付费定制",
+        text: "免费镜像",
         collapsible: true,
         items: [
-          { text: "免费镜像", link: "/paid-custom-free/" },
-          { text: "pro 镜像", link: "/paid-custom-image/" },
+          { text: "免费镜像-7.1.1.23", link: "/paid-custom-free/7.1.1.23" },
+          { text: "免费镜像-7.5.1.23", link: "/paid-custom-free/7.5.1.23" },
+        ],
+      },
+      {
+        text: "付费镜像",
+        collapsible: true,
+        items: [
+          { text: "pro 镜像-7.1.1.23", link: "/paid-custom-image/" },
           { text: "定制功能", link: "/paid-custom/" },
         ],
       },
