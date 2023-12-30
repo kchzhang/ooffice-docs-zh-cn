@@ -479,7 +479,7 @@ export default {
               { text: "跨域通信", link: "/plugins-api/cross" },
             ],
           },
-          { text: "更新日志", link: "/update-log/" },
+          // { text: "更新日志", link: "/update-log/" },
         ],
       },
       {
