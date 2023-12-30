@@ -38,7 +38,9 @@
 ## 6.连接器（自动化API）<span style="color:red;font-size:14px">*</span>
 
 ```vue
-var connector = docEditor.createConnector()
+var docEditor = new DocsAPI.DocEditor( "placeholder" , config);
+
+var connector = docEditor.createConnector();
 
 connector.attachEvent("onChangeContentControl", function()
 {
