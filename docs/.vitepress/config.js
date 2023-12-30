@@ -495,20 +495,22 @@ export default {
         ],
       },
       {
-        text: "免费镜像",
+        text: "免费产品",
         collapsible: true,
         items: [
-          { text: "免费镜像-7.1.1", link: "/paid-custom-free/7.1.1.23" },
-          { text: "免费镜像-7.5.1", link: "/paid-custom-free/7.5.1.23" },
+          { text: "文档服务器-7.1.1", link: "/paid-custom-free/7.1.1.23" },
+          { text: "文档服务器-7.5.1", link: "/paid-custom-free/7.5.1.23" },
         ],
       },
       {
-        text: "付费镜像",
+        text: "付费产品",
         collapsible: true,
         items: [
-          { text: "pro 镜像-7.1.1", link: "/paid-custom-image/" },
-          { text: "pro 镜像-7.5.1", link: "/paid-custom-image/7.5.1.23" },
-          { text: "定制功能", link: "/paid-custom/" },
+          { text: "文档服务器-7.1.1", link: "/paid-custom-image/" },
+          { text: "文档服务器-7.5.1", link: "/paid-custom-image/7.5.1.23/" },
+          { text: "文档生成器-7.5.1", link: "/paid-custom-builder/7.5.1.23/" },
+          { text: "定制服务", link: "/paid-custom/" },
+          { text: "疑难解答", link: "/paid-chat/" },
         ],
       },
       {
