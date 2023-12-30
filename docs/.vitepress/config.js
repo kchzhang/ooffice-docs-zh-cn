@@ -4,6 +4,7 @@ export default {
   description: "Just playing around.",
   lastUpdated: true,
   lang: "zh-cn",
+  head: [["link", { rel: "icon", href: "https://avatars.githubusercontent.com/u/22465727?s=400&u=de7c25b2a6d12d1e9288c6898176a2054b30b0f3&v=4" }]],
   themeConfig: {
     aapath: "/wwww",
     footer: {
