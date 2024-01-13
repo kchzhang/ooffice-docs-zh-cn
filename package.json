@@ -7,7 +7,7 @@
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
     "serve": "vitepress serve docs",
-    "deploy": "yarn build && git add . && git commit -m \"init\" && npm version patch && git push origin master && echo ok"
+    "deploy": "npm run build && git add . && git commit -m \"init\" && npm version patch && git push origin master && echo ok"
   },
   "devDependencies": {
     "vitepress": "^1.0.0-alpha.14",

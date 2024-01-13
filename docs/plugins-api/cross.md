@@ -39,11 +39,6 @@
 
 <a href="../corss.zip.png" download="corss.zip" target="_blank">示例代码下载</a>
 
-## 连接器
-
-简单又强大的功能
-<a href="../paid-custom-image/7.5.1.23/#_6-连接器（自动化api）">查看详情</a>
-
 <script setup>
 import Footer from '../components/Footer.vue'
 </script>
