@@ -24,6 +24,7 @@
     <div><h4><a href="https://jq.qq.com/?_wv=1027&k=m01BIUzX" target="_blank">QQ交流群</a></h4></div>
     <!-- <img width="220" src="../qq-group.png" /> -->
     <img width="220" :src="withBase('/qq-group.png')" />
+    <img width="220" :src="withBase('/QQ.JPG')" />
   </div>
 </template>
 

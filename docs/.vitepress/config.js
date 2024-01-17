@@ -4,6 +4,7 @@ export default {
   description: "Just playing around.",
   lastUpdated: true,
   lang: "zh-cn",
+  head: [["link", { rel: "icon", href: "https://avatars.githubusercontent.com/u/22465727?s=400&u=de7c25b2a6d12d1e9288c6898176a2054b30b0f3&v=4" }]],
   themeConfig: {
     aapath: "/wwww",
     footer: {
@@ -477,9 +478,10 @@ export default {
               { text: "字段插入替换", link: "/plugins-api/field" },
               { text: "水印", link: "/plugins-api/watermark" },
               { text: "跨域通信", link: "/plugins-api/cross" },
+              { text: "更多插件示例", link: "/plugins-api/more" },
             ],
           },
-          { text: "更新日志", link: "/update-log/" },
+          // { text: "更新日志", link: "/update-log/" },
         ],
       },
       {
@@ -495,20 +497,22 @@ export default {
         ],
       },
       {
-        text: "免费镜像",
+        text: "免费产品",
         collapsible: true,
         items: [
-          { text: "免费镜像-7.1.1", link: "/paid-custom-free/7.1.1.23" },
-          { text: "免费镜像-7.5.1", link: "/paid-custom-free/7.5.1.23" },
+          { text: "文档服务器-7.1.1", link: "/paid-custom-free/7.1.1.23" },
+          { text: "文档服务器-7.5.1", link: "/paid-custom-free/7.5.1.23" },
         ],
       },
       {
-        text: "付费镜像",
+        text: "付费产品",
         collapsible: true,
         items: [
-          { text: "pro 镜像-7.1.1", link: "/paid-custom-image/" },
-          { text: "pro 镜像-7.5.1", link: "/paid-custom-image/7.5.1.23" },
-          { text: "定制功能", link: "/paid-custom/" },
+          { text: "文档服务器-7.1.1", link: "/paid-custom-image/" },
+          { text: "文档服务器-7.5.1", link: "/paid-custom-image/7.5.1.23/" },
+          { text: "文档生成器-7.5.1", link: "/paid-custom-builder/7.5.1.23/" },
+          { text: "定制服务", link: "/paid-custom/" },
+          { text: "疑难解答", link: "/paid-chat/" },
         ],
       },
       {
