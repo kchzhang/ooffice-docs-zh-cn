@@ -34,10 +34,23 @@
 ![wokers](/pay/wokers.png)
 <a href="../pay/wokers.png" target="_blank">点击放大</a>
 
+## 6. 连接器 (自动化 API)<span style="color:red;font-size:14px">*</span>
+
+```vue
+Asc.scope.text = "Hello world!";
+var connector = docEditor.createConnector();
+connector.callCommand(function() {
+    var oDocument = Api.GetDocument();
+    var oParagraph = Api.CreateParagraph();
+    oParagraph.AddText(Asc.scope.text);
+    oDocument.InsertContent([oParagraph]);
+}, function() { console.log("callback command"); });
+
+```
+
 <!-- ## 6. 新增 sdkjsapi <span style="color:red;font-size:14px">(制作中)</span>
 
 可以调用 `sdk` 的所有 `api` 方法，包含范围（pc、移动端，Documents（docx）、Spreadsheets（xlsx）、Presentations(pptx)） -->
-
 
 ## 联系方式
 

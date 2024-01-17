@@ -1,1 +1,0 @@
-import{_,u as o,o as a,c,p as d,g as p,d as e}from"../app.d4ce56ce.js";const t=s=>(d("data-v-84557380"),s=s(),p(),s),r={class:"card-item"},n=t(()=>e("img",{src:"",alt:""},null,-1)),i=t(()=>e("div",null,"1111",-1)),l=[n,i],u={__name:"Card",props:["tip"],setup(s){return o(),(h,m)=>(a(),c("div",r,l))}},x=_(u,[["__scopeId","data-v-84557380"]]);export{x as C};
