@@ -7,6 +7,7 @@
 3. <a href="./paid-custom-free/" style="color:red">免费镜像</a>
 4. <a href="./paid-custom-image/" style="color:red">pro 镜像</a>
 5. <a href="./paid-custom-builder/7.5.1.23/" style="color:red">文档生成器</a>
+5. <a href="./paid-custom-image/connector/" style="color:red">连接器</a>
 6. <a href="./paid-custom/" style="color:red">提供付费定制</a>
 :::
 <!-- 3. <a target="_blank" href="https://hub.docker.com/r/knoxzhang/oo-ce-docker-license">下载</a> -->

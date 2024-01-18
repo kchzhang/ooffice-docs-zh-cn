@@ -1,4 +1,7 @@
 # 连接器
+连接器 是一个允许从外部源编辑文本文档、电子表格、演示文稿和可填写表单的类
+
+结合 `BUILDER.API` 能发挥更强大的能力
 
 ## 自定义右键菜单
 <Card src='/connector/right-menu.gif' desc="自定义右键菜单" price="299.00"/>
