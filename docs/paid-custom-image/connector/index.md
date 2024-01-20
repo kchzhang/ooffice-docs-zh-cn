@@ -9,6 +9,9 @@
 ## 光标坐标&被选中的文字
 <Card src='/connector/cursor-points.gif' desc="光标坐标&被选中的文字" price="299.00"/>
 
+## 水印
+<Card src='/connector/watermark.gif' desc="水印" price="199.00"/>
+
 <script setup>
 import Footer from '../../components/Footer.vue'
 import Card from '../../components/Card.vue'
