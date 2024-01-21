@@ -12,6 +12,13 @@
 ## 水印
 <Card src='/connector/watermark.gif' desc="水印" price="199.00"/>
 
+## 表格操作
+<Card src='/connector/table.gif' desc="表格操作" price="299.00"/>
+
+## 更多更能开发中
+
+
+
 <script setup>
 import Footer from '../../components/Footer.vue'
 import Card from '../../components/Card.vue'
