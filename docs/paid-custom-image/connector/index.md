@@ -15,6 +15,9 @@
 ## 表格操作
 <Card src='/connector/table.gif' desc="表格操作" price="299.00"/>
 
+## 书签操作
+<Card src='/connector/bookmark.gif' desc="书签操作" price="299.00"/>
+
 ## 更多更能开发中
 
 
