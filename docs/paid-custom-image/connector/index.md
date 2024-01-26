@@ -21,6 +21,9 @@
 ## 无刷新切换`编辑/预览`状态
 <Card src='/connector/set-mode.gif' desc="无刷新切换编辑/预览状态" price="99.00"/>
 
+## 获取文件链接
+<Card src='/connector/download-url.gif' desc="获取文件链接" price="99.00"/>
+
 ## 更多更能开发中
 
 
