@@ -43,6 +43,14 @@
 
 可以调用 `sdk` 的所有 `api` 方法，包含范围（pc、移动端，Documents（docx）、Spreadsheets（xlsx）、Presentations(pptx)）
 
+## 下载
+
+```sh
+# 拉取
+docker pull knoxzhang/oo-ce-docker-license-pro:7.1.1.26
+
+```
+
 ## 联系方式
 
 QQ：601424688

@@ -51,6 +51,13 @@ connector.callCommand(function() {
 <!-- ## 6. 新增 sdkjsapi <span style="color:red;font-size:14px">(制作中)</span>
 
 可以调用 `sdk` 的所有 `api` 方法，包含范围（pc、移动端，Documents（docx）、Spreadsheets（xlsx）、Presentations(pptx)） -->
+## 下载
+
+```sh
+# 拉取
+docker pull knoxzhang/oo-ce-docker-license-pro:7.5.1.23
+
+```
 
 ## 联系方式
 
