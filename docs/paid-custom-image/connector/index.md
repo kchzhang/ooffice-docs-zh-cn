@@ -18,6 +18,9 @@
 ## 书签操作
 <Card src='/connector/bookmark.gif' desc="书签操作" price="299.00"/>
 
+## 内容控件操作
+<Card src='/connector/content-controls.gif' desc="内容控件操作" price="299.00"/>
+
 ## 无刷新切换`编辑/预览`状态
 <Card src='/connector/set-mode.gif' desc="无刷新切换编辑/预览状态" price="99.00"/>
 
