@@ -507,6 +507,7 @@ export default {
         items: [
           { text: "文档服务-7.1.1", link: "/paid-custom-free/7.1.1.23" },
           { text: "文档服务-7.5.1", link: "/paid-custom-free/7.5.1.23" },
+          { text: "文档服务-8.0.0", link: "/paid-custom-free/8.0.0" },
         ],
       },
       {
@@ -519,6 +520,7 @@ export default {
             items: [
               { text: "documentserver-7.1.1", link: "/paid-custom-image/7.1.1.23/" },
               { text: "documentserver-7.5.1", link: "/paid-custom-image/7.5.1.23/" },
+              { text: "documentserver-8.0.0", link: "/paid-custom-image/8.0.0/" },
             ]
           },
           // { text: "文档服务器-7.1.1", link: "/paid-custom-image/" },
