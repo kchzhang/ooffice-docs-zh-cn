@@ -1,6 +1,6 @@
 {
   "name": "vitepress-starter",
-  "version": "1.0.73",
+  "version": "1.0.74",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
