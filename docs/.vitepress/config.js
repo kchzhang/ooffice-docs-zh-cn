@@ -530,6 +530,7 @@ export default {
             collapsible: false,
             items: [
               { text: "documentbuilder-7.5.1", link: "/paid-custom-builder/7.5.1.23/" },
+              { text: "documentbuilder-8.0.0", link: "/paid-custom-builder/8.0.0/" },
             ]
           },
           { text: "连接器", link: "/paid-custom-image/connector/" },
