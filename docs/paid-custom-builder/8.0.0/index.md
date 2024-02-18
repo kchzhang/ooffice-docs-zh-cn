@@ -10,7 +10,13 @@
 ![postman](/pay/builder/postman.jpg)
 <a href="../../pay/builder/postman.jpg" target="_blank">点击放大</a>
 
+## 下载
 
+```sh
+# 拉取
+docker pull knoxzhang/document-builder:8.0.0.1
+
+```
 
 ## 联系方式
 
