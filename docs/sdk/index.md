@@ -26,7 +26,9 @@ docEditor.downloadAs(格式);
 只有在存在onDownloadAs事件 时才能调用该方法。文档编辑服务异步创建文档并使用参数中的链接触发onDownloadAs事件。
 :::
 
+## 事件
 
+https://api.onlyoffice.com/zh/editors/methods
 
 
 

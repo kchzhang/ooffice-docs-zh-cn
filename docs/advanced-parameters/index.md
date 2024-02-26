@@ -15,3 +15,6 @@ config = {
     }
 };
 ```
+## 更多参数
+
+https://api.onlyoffice.com/zh/editors/advanced
