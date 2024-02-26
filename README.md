@@ -13,6 +13,10 @@
 
 ## 联系方式
 
+微信
+<br/>
+<img width="176" height="176" src="./docs/public/my-code.png"/>
+
 QQ：601424688
 
 QQ 交流群：<a href="https://jq.qq.com/?_wv=1027&k=m01BIUzX" target="_blank">792389659</a>
