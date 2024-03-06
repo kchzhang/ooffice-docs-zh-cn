@@ -7,7 +7,7 @@
     <br />
     <br />
     <div>
-      <h4>{{props.tip || '如果有帮助到您，请作者喝杯咖啡吧'}}</h4>
+      <h4>{{ props.tip || "如果有帮助到您，请作者喝杯咖啡吧" }}</h4>
     </div>
     <table>
       <tr>
@@ -23,11 +23,16 @@
       </tr>
     </table>
     <br />
+    公众号
+    <img width="220" :src="withBase('/qrcode.jpg')" />
+    <br />
     微信
     <img width="220" :src="withBase('/my-code.png')" />
     <div>
       <h4>
-        <a href="https://jq.qq.com/?_wv=1027&k=m01BIUzX" target="_blank">QQ交流群</a>
+        <a href="https://jq.qq.com/?_wv=1027&k=m01BIUzX" target="_blank"
+          >QQ交流群</a
+        >
       </h4>
     </div>
     <!-- <img width="220" src="../qq-group.png" /> -->

@@ -12,6 +12,9 @@
 2. [镜像地址](https://hub.docker.com/r/knoxzhang/oo-ce-docker-license)
 
 ## 联系方式
+公众号
+<br />
+<img width="176" height="176" src="./docs/public/qrcode.jpg" />
 
 微信
 <br/>
