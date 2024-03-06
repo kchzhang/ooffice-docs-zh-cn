@@ -9,6 +9,7 @@
     <div>
       <h4>{{ props.tip || "如果有帮助到您，请作者喝杯咖啡吧" }}</h4>
     </div>
+
     <table>
       <tr>
         <td>
@@ -22,11 +23,12 @@
         </td>
       </tr>
     </table>
+
     <br />
-    公众号
+    <a :href="withBase('/qrcode.jpg')">公众号</a>
     <img width="220" :src="withBase('/qrcode.jpg')" />
-    <br />
-    微信
+
+    <a :href="withBase('/my-code.png')">微信</a>
     <img width="220" :src="withBase('/my-code.png')" />
     <div>
       <h4>
