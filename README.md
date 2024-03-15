@@ -42,3 +42,5 @@ QQ 交流群：<a href="https://jq.qq.com/?_wv=1027&k=m01BIUzX" target="_blank">
         </td>
     </tr>
 </table>
+
+<!-- 图标下载 https://shields.io/badges/docker-pulls -->
