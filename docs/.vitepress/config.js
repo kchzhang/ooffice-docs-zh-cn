@@ -460,7 +460,8 @@ export default {
             text: "前端集成",
             link: "/integration/",
             items: [
-              { text: "Vue集成", link: "/integration/vue" },
+              { text: "Vue3集成", link: "/integration/vue" },
+              { text: "Vue2集成", link: "/integration/vue2" },
               { text: "React集成", link: "/integration/react" },
             ],
           },
