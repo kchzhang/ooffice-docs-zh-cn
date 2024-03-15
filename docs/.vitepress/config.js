@@ -522,9 +522,10 @@ export default {
             text: "文档服务",
             collapsible: false,
             items: [
-              { text: "documentserver-7.1.1", link: "/paid-custom-image/7.1.1.23/" },
+              // { text: "documentserver-7.1.1", link: "/paid-custom-image/7.1.1.23/" },
               { text: "documentserver-7.5.1", link: "/paid-custom-image/7.5.1.23/" },
               { text: "documentserver-8.0.0", link: "/paid-custom-image/8.0.0/" },
+              { text: "documentserver-8.0.1", link: "/paid-custom-image/8.0.1/" },
             ]
           },
           // { text: "文档服务器-7.1.1", link: "/paid-custom-image/" },

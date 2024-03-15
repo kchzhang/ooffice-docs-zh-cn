@@ -4,10 +4,6 @@
 
 <!-- <span style="color:#000000;font-size:16px;text-decoration:line-through">￥99.00</span> -->
 
-::: tip 温馨提示
-基于 7.5.1 镜像制作
-:::
-
 ## 1. 去除 20 链接数限制
 
 ![online-users](/pay/online-users.png)

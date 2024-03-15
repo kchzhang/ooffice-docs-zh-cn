@@ -10,7 +10,7 @@
     "deploy": "npm run build && git add . && git commit -m \"init\" && npm version patch && git push origin master && echo ok"
   },
   "devDependencies": {
-    "vitepress": "^1.0.0-alpha.14",
+    "vitepress": "^1.0.0-alpha.27",
     "vue": "^3.2.39"
   }
 }
