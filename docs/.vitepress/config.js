@@ -7,9 +7,8 @@ export default {
   head: [["link", { rel: "icon", href: "https://avatars.githubusercontent.com/u/22465727?s=400&u=de7c25b2a6d12d1e9288c6898176a2054b30b0f3&v=4" }]],
   themeConfig: {
     aapath: "/wwww",
-    footer: {
-      message: "Released under the MIT License.",
-      copyright: "Copyright © 2022-present Evan You",
+    search: {
+      provider: 'local'
     },
     docFooter: {
       prev: "上一页",
@@ -451,6 +450,10 @@ export default {
       },
     ],
     lastUpdatedText: "更新时间",
+    nav: [
+      { text: '主页', link: '/' },
+      { text: '指南', link: '/integration/' }
+    ],
     sidebar: [
       {
         text: "快速开始",
