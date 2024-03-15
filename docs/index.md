@@ -19,6 +19,6 @@ features:
      details: 集成、服务部署、字体
    - title: 基础镜像
      details: 免费下载、无限制
-   - title: 高级镜像
+   - title: Pro 镜像
      details: 无限制、移动端、连接器、文档生成器
 ---
