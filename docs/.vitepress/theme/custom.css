@@ -1,0 +1,26 @@
+.box {
+    padding: 0 24px;
+    margin: 0 auto;
+    max-width: 1152px;
+}
+
+
+
+@media (min-width: 640px) {
+    .box {
+        padding: 0 48px;
+    }
+}
+
+
+@media (min-width: 960px) {
+    .box {
+        padding: 0 64px;
+    }
+}
+
+
+.container1{
+    margin: 0 auto;
+    max-width: 1152px;
+}

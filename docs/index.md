@@ -26,3 +26,14 @@ features:
      link: /paid-custom-image/8.0.1/
 
 ---
+
+<div class="box">
+  <div class="vp-doc">
+    <h2>下载量</h2>
+  </div>
+  <div class="container1">
+    <img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/knoxzhang/oo-ce-docker-license"/>
+    <br/>
+    <img alt="NPM Downloads by package author" src="https://img.shields.io/npm-stat/dy/knox.zhang">
+  </div>
+</div>
