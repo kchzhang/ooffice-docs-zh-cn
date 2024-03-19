@@ -11,6 +11,17 @@
 1. [文档地址](https://knoxzhang.gitee.io/ooffice-docs-zh-cn/)
 2. [镜像地址](https://hub.docker.com/r/knoxzhang/oo-ce-docker-license)
 
+## 下载量
+
+ ![镜像下载](./docs/public/oo-ce-docker-license.svg)
+ ![npm pagepack 下载](./docs/public/knox.zhang.week.svg)
+ ![npm pagepack 下载](./docs/public/knox.zhang.year.svg)
+
+
+<!-- https://img.shields.io/docker/pulls/knoxzhang/oo-ce-docker-license
+
+https://img.shields.io/npm-stat/dy/knox.zhang -->
+
 ## 联系方式
 公众号
 <br />

@@ -32,8 +32,14 @@ features:
     <h2>下载量</h2>
   </div>
   <div class="container1">
-    <img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/knoxzhang/oo-ce-docker-license"/>
+    <img alt="Docker Pulls" src="/oo-ce-docker-license.svg"/>
     <br/>
-    <img alt="NPM Downloads by package author" src="https://img.shields.io/npm-stat/dy/knox.zhang">
+    <img alt="NPM Downloads by package author" src="/knox.zhang.week.svg">
+    <br/>
+    <img alt="NPM Downloads by package author" src="/knox.zhang.year.svg">
   </div>
 </div>
+
+<!-- https://img.shields.io/docker/pulls/knoxzhang/oo-ce-docker-license
+
+https://img.shields.io/npm-stat/dy/knox.zhang -->
