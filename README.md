@@ -13,7 +13,7 @@
 
 ## 下载量
 
- ![镜像下载](./docs/public/oo-ce-docker-license.svg)
+ ![镜像下载](./docs/public/oo-ce-docker-license15.svg)
  ![npm pagepack 下载](./docs/public/knox.zhang.week.svg)
  ![npm pagepack 下载](./docs/public/knox.zhang.year.svg)
 
