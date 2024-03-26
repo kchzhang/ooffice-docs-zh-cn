@@ -29,7 +29,7 @@ features:
 
 <div class="box">
   <div class="vp-doc">
-    <h2>下载量</h2>
+    <h2>徽标</h2>
   </div>
   <div class="container1">
     <img alt="Docker Pulls" src="/oo-ce-docker-license15.svg"/>
@@ -37,9 +37,13 @@ features:
     <img alt="NPM Downloads by package author" src="/knox.zhang.week.svg">
     <br/>
     <img alt="NPM Downloads by package author" src="/knox.zhang.year.svg">
+    <br/>
+    <img alt="人数" src="https://img.shields.io/badge/QQ群人数-360+-blue">
   </div>
 </div>
 
 <!-- https://img.shields.io/docker/pulls/knoxzhang/oo-ce-docker-license
 
-https://img.shields.io/npm-stat/dy/knox.zhang -->
+https://img.shields.io/npm-stat/dy/knox.zhang
+
+https://img.shields.io/badge/QQ群人数-360+-blue -->
