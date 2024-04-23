@@ -38,7 +38,7 @@ features:
     <br/>
     <img alt="NPM Downloads by package author" src="/knox.zhang.year.svg">
     <br/>
-    <img alt="人数" src="https://img.shields.io/badge/QQ群人数-360+-blue">
+    <img alt="人数" src="https://img.shields.io/badge/QQ群人数-410+-blue">
   </div>
 </div>
 

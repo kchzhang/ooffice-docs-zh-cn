@@ -42,6 +42,8 @@ proxy_set_header Upgrade $http_upgrade;
 proxy_set_header Connection $proxy_connection;
 proxy_set_header X-Forwarded-Host $the_host;
 proxy_set_header X-Forwarded-Proto $the_scheme;
+proxy_set_header Host            $proxy_host;
+proxy_set_header X-Real-IP       $remote_addr;
 proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
 
 
@@ -92,6 +94,8 @@ proxy_set_header Upgrade $http_upgrade;
 proxy_set_header Connection $proxy_connection;
 proxy_set_header X-Forwarded-Host $the_host;
 proxy_set_header X-Forwarded-Proto $the_scheme;
+proxy_set_header Host            $proxy_host;
+proxy_set_header X-Real-IP       $remote_addr;
 proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
 
 ## Normal HTTP host
@@ -187,6 +191,8 @@ proxy_set_header Upgrade $http_upgrade;
 proxy_set_header Connection $proxy_connection;
 proxy_set_header X-Forwarded-Host $the_host/documentserver-virtual-path;
 proxy_set_header X-Forwarded-Proto $the_scheme;
+proxy_set_header Host            $proxy_host;
+proxy_set_header X-Real-IP       $remote_addr;
 proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
 
 
@@ -229,8 +235,10 @@ map $http_upgrade $proxy_connection {
 
 proxy_set_header Upgrade $http_upgrade;
 proxy_set_header Connection $proxy_connection;
-# proxy_set_header X-Forwarded-Host $the_host/7.4.0-163;
+proxy_set_header X-Forwarded-Host $the_host;
 proxy_set_header X-Forwarded-Proto $the_scheme;
+proxy_set_header Host            $proxy_host;
+proxy_set_header X-Real-IP       $remote_addr;
 proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
 
 
