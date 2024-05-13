@@ -13,7 +13,8 @@
 
 ## 徽标
 
- ![镜像下载](./docs/public/oo-ce-docker-license16.svg)
+ <!-- ![镜像下载](./docs/public/oo-ce-docker-license16.svg) -->
+ ![镜像下载](https://img.shields.io/docker/pulls/knoxzhang/oo-ce-docker-license)
  ![npm pagepack 下载](./docs/public/knox.zhang.week.svg)
  ![npm pagepack 下载](./docs/public/knox.zhang.year.svg)
  ![社区人数](https://img.shields.io/badge/QQ群人数-410+-blue)
