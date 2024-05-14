@@ -32,7 +32,7 @@ features:
     <h2>徽标</h2>
   </div>
   <div class="container1">
-    <img alt="Docker Pulls" src="/oo-ce-docker-license16.svg"/>
+    <img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/knoxzhang/oo-ce-docker-license"/>
     <br/>
     <img alt="NPM Downloads by package author" src="/knox.zhang.week.svg">
     <br/>
