@@ -29,13 +29,6 @@
 https://img.shields.io/npm-stat/dy/knox.zhang -->
 
 ## 联系方式
-公众号
-<br />
-<img width="176" height="176" src="./docs/public/qrcode.jpg" />
-
-微信
-<br/>
-<img width="176" height="176" src="./docs/public/my-code.png"/>
 
 QQ：601424688
 
