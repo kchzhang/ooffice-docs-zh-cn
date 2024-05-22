@@ -1,19 +1,19 @@
- ![镜像下载](https://img.shields.io/docker/pulls/knoxzhang/oo-ce-docker-license)
- ![npm pagepack 下载](./docs/public/knox.zhang.week.svg)
- ![npm pagepack 下载](./docs/public/knox.zhang.year.svg)
- ![社区人数](https://img.shields.io/badge/QQ群人数-410+-blue)
+![镜像下载](https://img.shields.io/docker/pulls/knoxzhang/oo-ce-docker-license)
+![npm pagepack 下载](./docs/public/knox.zhang.week.svg)
+![npm pagepack 下载](./docs/public/knox.zhang.year.svg)
+![社区人数](https://img.shields.io/badge/QQ群人数-410+-blue)
 
 ## 介绍
 
 1. 无限制
 2. <span style="color:red">提供免费镜像</span>
-3. 连接器（自动化api）
+3. 连接器（自动化 api）
 4. 定制服务
 5. 咨询服务
 
 ## 资源链接
 
-1. [文档地址](https://knoxzhang.gitee.io/ooffice-docs-zh-cn/)
+1. [简易文档](https://docs.qq.com/doc/DVHhIcnptc0hEQnJP)
 2. [镜像地址](https://hub.docker.com/r/knoxzhang/oo-ce-docker-license)
 
 <!-- ## 徽标 -->
@@ -27,6 +27,29 @@
 <!-- https://img.shields.io/docker/pulls/knoxzhang/oo-ce-docker-license
 
 https://img.shields.io/npm-stat/dy/knox.zhang -->
+
+## 快速开始
+
+### 下载
+
+```sh
+npm install
+
+# or
+
+yarn install
+```
+
+### 启动
+
+```sh
+npm run dev
+```
+
+### 效果
+![home](./docs/public/home.png)
+
+
 
 ## 联系方式
 
