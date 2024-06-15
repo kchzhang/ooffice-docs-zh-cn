@@ -28,6 +28,15 @@
 
 https://img.shields.io/npm-stat/dy/knox.zhang -->
 
+## 部署
+
+```sh
+# 拉取
+docker pull knoxzhang/oo-ce-docker-license:8.0.0.1
+# 启动
+docker run --name=ooffice -i -t -d -p 8080:80 --restart=always knoxzhang/oo-ce-docker-license:8.0.0.1
+```
+
 ## 快速开始
 
 ### 下载
