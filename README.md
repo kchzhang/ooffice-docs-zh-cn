@@ -11,7 +11,7 @@
 - 📖 定制服务
 - 📖 咨询服务
 
-## 资源链接
+## 📔 资源链接
 
 - 👉 [简易文档](https://docs.qq.com/doc/DVHhIcnptc0hEQnJP)
 - 👉 [镜像地址](https://hub.docker.com/r/knoxzhang/oo-ce-docker-license)
@@ -28,22 +28,13 @@
 
 https://img.shields.io/npm-stat/dy/knox.zhang -->
 
-## 🚀 快速开始
-
-### 📦 下载
+## 🚀 快速部署
 
 ```sh
-npm install
-
-# or
-
-yarn install
-```
-
-### 🚀 启动
-
-```sh
-npm run dev
+# 拉取
+docker pull knoxzhang/oo-ce-docker-license:8.0.0.1
+# 启动
+docker run --name=ooffice -i -t -d -p 8080:80 --restart=always knoxzhang/oo-ce-docker-license:8.0.0.1
 ```
 
 ### 📔 效果
