@@ -1,20 +1,20 @@
 ![镜像下载](https://img.shields.io/docker/pulls/knoxzhang/oo-ce-docker-license)
 ![npm pagepack 下载](./docs/public/knox.zhang.week.svg)
 ![npm pagepack 下载](./docs/public/knox.zhang.year.svg)
-![社区人数](https://img.shields.io/badge/QQ群人数-440+-blue)
+![社区人数](https://img.shields.io/badge/QQ群人数-470+-blue)
 
-## 介绍
+## ✨ 介绍
 
-1. 无限制
-2. <span style="color:red">提供免费镜像</span>
-3. 连接器（自动化 api）
-4. 定制服务
-5. 咨询服务
+- 💪 无限制
+- 💪 <span style="color:red">提供免费镜像</span>
+- 💪 连接器（自动化 api）
+- 📖 定制服务
+- 📖 咨询服务
 
 ## 资源链接
 
-1. [简易文档](https://docs.qq.com/doc/DVHhIcnptc0hEQnJP)
-2. [镜像地址](https://hub.docker.com/r/knoxzhang/oo-ce-docker-license)
+- 👉 [简易文档](https://docs.qq.com/doc/DVHhIcnptc0hEQnJP)
+- 👉 [镜像地址](https://hub.docker.com/r/knoxzhang/oo-ce-docker-license)
 
 <!-- ## 徽标 -->
 
@@ -28,9 +28,9 @@
 
 https://img.shields.io/npm-stat/dy/knox.zhang -->
 
-## 快速开始
+## 🚀 快速开始
 
-### 下载
+### 📦 下载
 
 ```sh
 npm install
@@ -40,18 +40,18 @@ npm install
 yarn install
 ```
 
-### 启动
+### 🚀 启动
 
 ```sh
 npm run dev
 ```
 
-### 效果
+### 📔 效果
 ![home](./docs/public/home.png)
 
 
 
-## 联系方式
+## 🏗 联系方式
 
 QQ：601424688
 
@@ -59,7 +59,7 @@ QQ 交流群：<a href="https://jq.qq.com/?_wv=1027&k=m01BIUzX" target="_blank">
 
 ![qq-group](./docs/public/qq-group.png)
 
-## 捐赠
+## 💝 捐赠
 
 如果有帮助到您，请作者喝杯咖啡吧
 
