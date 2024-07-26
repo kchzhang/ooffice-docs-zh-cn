@@ -1,52 +1,31 @@
-# Sample workflow for building and deploying a Jekyll site to GitHub Pages
-name: Deploy Jekyll with GitHub Pages dependencies preinstalled
-
+name: GitHub Actions Build and Deploy # 大标题
 on:
-  # Runs on pushes targeting the default branch
   push:
-    branches: ["master"]
-
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
-
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+    branches:
+      - master # 监听哪个分支的哪个动作
 permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
-# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
-
+  contents: write # 设置权限，可写，也可以不用配置，v4版本新增的
 jobs:
-  # Build job
-  build:
-    runs-on: ubuntu-latest
+  build-and-deploy: # 其中一个任务的名称，ID
+    runs-on: ubuntu-latest # 这个任务运行所需的环境
     steps:
-      - name: Checkout
+      - name: Check out Git repository # 第一步：获取源码
         uses: actions/checkout@v4
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-      - name: Build with Jekyll
-        uses: actions/jekyll-build-pages@v1
-        with:
-          source: ./
-          destination: ./_site
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
 
-  # Deployment job
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
-        
+      - name: Setup Node.js # 第二步：安装Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install and Build # 第三步：下载依赖和构建
+        run: |
+          npm install -g yarn
+          yarn install
+          npm run build
+
+      - name: Deploy # 第四步：部署
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: docs/.vitepress/dist # 部署的目录
+          branch: deploy # 部署到哪个分支
+
