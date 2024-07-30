@@ -7,11 +7,12 @@ import { withBase, useData } from "vitepress";
 import { reactive } from "vue";
 import users from "./users";
 const userlist = reactive(users);
-const url = withBase("/pdfjs-4.5.136-legacy-dist/web/viewer.html");
+const file = "/demo.pdf";
+const url = withBase("/pdfjs-4.5.136-legacy-dist/web/viewer.html?file=" + file);
 </script>
 
 <style scoped>
-iframe{
+iframe {
   width: 100%;
   height: 100%;
   border: 0;
