@@ -13,7 +13,8 @@
 
 ## 📔 资源链接
 
-- 👉 [简易文档](https://docs.qq.com/doc/DVHhIcnptc0hEQnJP)
+- 👉 [文档地址](https://kchzhang.github.io/ooffice-docs-zh-cn/)
+- 👉 [腾讯文档](https://docs.qq.com/doc/DVHhIcnptc0hEQnJP)
 - 👉 [镜像地址](https://hub.docker.com/r/knoxzhang/oo-ce-docker-license)
 
 <!-- ## 徽标 -->
