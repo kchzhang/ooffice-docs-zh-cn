@@ -544,6 +544,13 @@ export default {
         ],
       },
       {
+        text: "基础工具",
+        collapsible: true,
+        items: [
+          { text: "pdf", link: "/pdf/" },
+        ],
+      },
+      {
         text: "联系方式",
         collapsible: true,
         items: [
