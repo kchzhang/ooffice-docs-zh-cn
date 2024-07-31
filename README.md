@@ -2,6 +2,7 @@
 ![npm pagepack 下载](./docs/public/knox.zhang.week.svg)
 ![npm pagepack 下载](./docs/public/knox.zhang.year.svg)
 ![社区人数](https://img.shields.io/badge/QQ群人数-500+-blue)
+[![Deploy site to Pages](https://github.com/kchzhang/ooffice-docs-zh-cn/actions/workflows/deploy.yml/badge.svg)](https://github.com/kchzhang/ooffice-docs-zh-cn/actions/workflows/deploy.yml)
 
 ## ✨ 介绍
 
