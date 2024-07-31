@@ -548,6 +548,7 @@ export default {
         collapsible: true,
         items: [
           { text: "pdf", link: "/pdf/" },
+          { text: "excel", link: "/excel/" },
         ],
       },
       {
