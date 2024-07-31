@@ -8,7 +8,7 @@ import { loadLink, seriesLoadScripts, fetchExcelFile } from "../util";
 
 import { luckyToUniver } from "./lucky-to-univer";
 
-loadLink("/univer-0.25/univer.css");
+loadLink("../univer-0.25/univer.css");
 
 seriesLoadScripts(
   ["../univer-0.25/univer.full.umd.js", "../univer-0.25/zh-CN.js"],
