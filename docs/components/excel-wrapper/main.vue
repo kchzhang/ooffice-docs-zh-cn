@@ -11,7 +11,7 @@ import { luckyToUniver } from "./lucky-to-univer";
 loadLink("/univer-0.25/univer.css");
 
 seriesLoadScripts(
-  ["/univer-0.25/univer.full.umd.js", "/univer-0.25/zh-CN.js"],
+  ["../univer-0.25/univer.full.umd.js", "../univer-0.25/zh-CN.js"],
   {},
   function () {
     var {
@@ -61,7 +61,7 @@ seriesLoadScripts(
 
 
     luckyexcel.transformExcelToLuckyByUrl(
-      "/11.xlsx",
+      "../11.xlsx",
       "11.xlsx",
       function (res) {
         const luckyJson = {
