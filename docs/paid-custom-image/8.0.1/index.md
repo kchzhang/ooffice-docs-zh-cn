@@ -52,12 +52,7 @@ connector.callCommand(function() {
 docker pull knoxzhang/oo-ce-docker-license-pro:8.0.1.33
 
 ```
-### 百度网盘
 
-```sh
-https://pan.baidu.com/s/1YDuhQYA5xLbkpitNWzyDkQ
-ai66
-```
 
 ## 联系方式
 
