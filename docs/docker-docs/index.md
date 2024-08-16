@@ -40,7 +40,7 @@
 
 ```sh
 
-sudo docker run --name=ooffice -i -t -d -p 8080:80 --restart=always knoxzhang/oo-ce-docker-license
+sudo docker run --name=ooffice -i -t -d -p 8080:80 --restart=always knoxzhang/oo-ce-docker-license:8.0.0.1
 
 ```
 
@@ -53,7 +53,7 @@ sudo docker run --name=ooffice -i -t -d -p 8080:80 --restart=always \
     -v /app/onlyoffice/DocumentServer/data:/var/www/onlyoffice/Data  \
     -v /app/onlyoffice/DocumentServer/lib:/var/lib/onlyoffice \
     -v /app/onlyoffice/DocumentServer/db:/var/lib/postgresql \
-    knoxzhang/oo-ce-docker-license
+    knoxzhang/oo-ce-docker-license:8.0.0.1
 
 ```
 
