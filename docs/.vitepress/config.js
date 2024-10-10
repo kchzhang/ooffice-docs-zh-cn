@@ -549,6 +549,7 @@ export default {
         items: [
           { text: "pdf", link: "/pdf/" },
           { text: "excel", link: "/excel/" },
+          { text: "json", link: "https://kchzhang.github.io/tom-json/" },
         ],
       },
       {
