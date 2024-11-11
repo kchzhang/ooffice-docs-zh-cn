@@ -34,9 +34,9 @@ https://img.shields.io/npm-stat/dy/knox.zhang -->
 
 ```sh
 # 拉取
-docker pull knoxzhang/oo-ce-docker-license:8.0.0.1
+docker pull knoxzhang/oo-ce-docker-license:8.2.0.1
 # 启动
-docker run --name=ooffice -i -t -d -p 8080:80 --restart=always knoxzhang/oo-ce-docker-license:8.0.0.1
+docker run --name=ooffice -i -t -d -p 8080:80 --restart=always knoxzhang/oo-ce-docker-license::8.2.0.1
 ```
 
 ### 📔 效果

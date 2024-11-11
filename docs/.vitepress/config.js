@@ -509,9 +509,10 @@ export default {
         text: "免费产品",
         collapsible: true,
         items: [
-          { text: "文档服务-7.1.1", link: "/paid-custom-free/7.1.1.23" },
-          { text: "文档服务-7.5.1", link: "/paid-custom-free/7.5.1.23" },
+          // { text: "文档服务-7.1.1", link: "/paid-custom-free/7.1.1.23" },
+          // { text: "文档服务-7.5.1", link: "/paid-custom-free/7.5.1.23" },
           { text: "文档服务-8.0.0", link: "/paid-custom-free/8.0.0" },
+          { text: "文档服务-8.2.0", link: "/paid-custom-free/8.2.0" },
         ],
       },
       {
@@ -523,7 +524,7 @@ export default {
             collapsible: false,
             items: [
               // { text: "documentserver-7.1.1", link: "/paid-custom-image/7.1.1.23/" },
-              { text: "documentserver-7.5.1", link: "/paid-custom-image/7.5.1.23/" },
+              // { text: "documentserver-7.5.1", link: "/paid-custom-image/7.5.1.23/" },
               { text: "documentserver-8.0.0", link: "/paid-custom-image/8.0.0/" },
               { text: "documentserver-8.0.1", link: "/paid-custom-image/8.0.1/" },
             ]
