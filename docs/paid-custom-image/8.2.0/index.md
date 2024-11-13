@@ -25,37 +25,41 @@
 ![font-size](/pay/font-size.png)
 <a href="../../pay/font-size.png" target="_blank">点击放大</a>
 
-<!-- ## 5. 开启多核线程 <span style="color:red;font-size:14px"></span>
-
-![wokers](/pay/wokers.png)
-<a href="../pay/wokers.png" target="_blank">点击放大</a> -->
-
-## 5. 连接器 (自动化 API)<span style="color:red;font-size:14px">*</span>
+## 5. 连接器 (自动化 API)<span style="color:red;font-size:14px">\*</span>
 
 ```vue
-Asc.scope.text = "Hello world!";
+Asc.scope.text = "Hello world!"; 
+
 var connector = docEditor.createConnector();
-connector.callCommand(function() {
-    var oDocument = Api.GetDocument();
-    var oParagraph = Api.CreateParagraph();
-    oParagraph.AddText(Asc.scope.text);
-    oDocument.InsertContent([oParagraph]);
-}, function() { console.log("callback command"); });
 
+connector.callCommand(function() { 
+    var oDocument = Api.GetDocument(); 
+    var oParagraph = Api.CreateParagraph(); 
+        oParagraph.AddText(Asc.scope.text);
+        oDocument.InsertContent([oParagraph]); 
+    }, 
+    function() { 
+        console.log("callback command");
+    });
 ```
+### word
 
-<!-- ## 6. 新增 sdkjsapi <span style="color:red;font-size:14px">(制作中)</span>
+![font-size](/8.2.0/auto-word.png)
+<a href="../../8.2.0/auto-word.png" target="_blank">点击放大</a>
 
-可以调用 `sdk` 的所有 `api` 方法，包含范围（pc、移动端，Documents（docx）、Spreadsheets（xlsx）、Presentations(pptx)） -->
+### excel
 
-<!-- docker pull knoxzhang/oo-ce-docker-license:8.0.0.1 -->
-## 下载
+![font-size](/8.2.0/auto-cell.png)
+<a href="../../8.2.0/auto-cell.png" target="_blank">点击放大</a>
+### powerpoint
 
-```sh
-# 拉取
-docker pull knoxzhang/oo-ce-docker-license-pro:8.0.0.1
+![font-size](/8.2.0/auto-slide.png)
+<a href="../../8.2.0/auto-slide.png" target="_blank">点击放大</a>
 
-```
+![font-size](/8.2.0/auto-pdf.png)
+<a href="../../8.2.0/auto-pdf.png" target="_blank">点击放大</a>
+
+### pdf
 
 ## 联系方式
 

@@ -527,6 +527,7 @@ export default {
               // { text: "documentserver-7.5.1", link: "/paid-custom-image/7.5.1.23/" },
               { text: "documentserver-8.0.0", link: "/paid-custom-image/8.0.0/" },
               { text: "documentserver-8.0.1", link: "/paid-custom-image/8.0.1/" },
+              { text: "documentserver-8.2.0", link: "/paid-custom-image/8.2.0/" },
             ]
           },
           // { text: "文档服务器-7.1.1", link: "/paid-custom-image/" },
