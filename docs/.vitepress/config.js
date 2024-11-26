@@ -4,11 +4,19 @@ export default {
   description: "Just playing around.",
   lastUpdated: true,
   lang: "zh-cn",
-  head: [["link", { rel: "icon", href: "https://avatars.githubusercontent.com/u/22465727?s=400&u=de7c25b2a6d12d1e9288c6898176a2054b30b0f3&v=4" }]],
+  head: [
+    [
+      "link",
+      {
+        rel: "icon",
+        href: "https://avatars.githubusercontent.com/u/22465727?s=400&u=de7c25b2a6d12d1e9288c6898176a2054b30b0f3&v=4",
+      },
+    ],
+  ],
   themeConfig: {
     aapath: "/wwww",
     search: {
-      provider: 'local'
+      provider: "local",
     },
     docFooter: {
       prev: "上一页",
@@ -451,8 +459,8 @@ export default {
     ],
     lastUpdatedText: "更新时间",
     nav: [
-      { text: '主页', link: '/' },
-      { text: '指南', link: '/integration/' }
+      { text: "主页", link: "/" },
+      { text: "指南", link: "/integration/" },
     ],
     sidebar: [
       {
@@ -478,7 +486,16 @@ export default {
         items: [
           { text: "前端SDK", link: "/sdk/" },
           { text: "高级参数", link: "/advanced-parameters/" },
-          { text: "服务API", link: "/server-api/" },
+          // { text: "服务API", link: "/server-api/" },
+          {
+            text: "服务 API",
+            link: "/additional-api/",
+            items: [
+              { text: "命令服务", link: "/additional-api/command" },
+              { text: "转换 API", link: "/additional-api/convert" },
+              { text: "令牌", link: "/additional-api/token" },
+            ],
+          },
           { text: "常见错误", link: "/trouble-shoot/" },
           {
             text: "插件",
@@ -525,10 +542,19 @@ export default {
             items: [
               // { text: "documentserver-7.1.1", link: "/paid-custom-image/7.1.1.23/" },
               // { text: "documentserver-7.5.1", link: "/paid-custom-image/7.5.1.23/" },
-              { text: "documentserver-8.0.0", link: "/paid-custom-image/8.0.0/" },
-              { text: "documentserver-8.0.1", link: "/paid-custom-image/8.0.1/" },
-              { text: "documentserver-8.2.0", link: "/paid-custom-image/8.2.0/" },
-            ]
+              {
+                text: "documentserver-8.0.0",
+                link: "/paid-custom-image/8.0.0/",
+              },
+              {
+                text: "documentserver-8.0.1",
+                link: "/paid-custom-image/8.0.1/",
+              },
+              {
+                text: "documentserver-8.2.0",
+                link: "/paid-custom-image/8.2.0/",
+              },
+            ],
           },
           // { text: "文档服务器-7.1.1", link: "/paid-custom-image/" },
           // { text: "文档服务器-7.5.1", link: "/paid-custom-image/7.5.1.23/" },
@@ -536,9 +562,15 @@ export default {
             text: "文档生成器",
             collapsible: false,
             items: [
-              { text: "documentbuilder-7.5.1", link: "/paid-custom-builder/7.5.1.23/" },
-              { text: "documentbuilder-8.0.0", link: "/paid-custom-builder/8.0.0/" },
-            ]
+              {
+                text: "documentbuilder-7.5.1",
+                link: "/paid-custom-builder/7.5.1.23/",
+              },
+              {
+                text: "documentbuilder-8.0.0",
+                link: "/paid-custom-builder/8.0.0/",
+              },
+            ],
           },
           { text: "连接器", link: "/paid-custom-image/connector/" },
           { text: "定制服务", link: "/paid-custom/" },
