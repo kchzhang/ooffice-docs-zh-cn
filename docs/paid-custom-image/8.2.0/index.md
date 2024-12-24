@@ -51,15 +51,22 @@ connector.callCommand(function() {
 
 ![font-size](/8.2.0/auto-cell.png)
 <a href="../../8.2.0/auto-cell.png" target="_blank">点击放大</a>
+
+![font-size](/8.2.0/auto-cell-2.png)
+<a href="../../8.2.0/auto-cell-2.png" target="_blank">点击放大</a>
+
 ### powerpoint
 
 ![font-size](/8.2.0/auto-slide.png)
 <a href="../../8.2.0/auto-slide.png" target="_blank">点击放大</a>
 
+### pdf
+
 ![font-size](/8.2.0/auto-pdf.png)
 <a href="../../8.2.0/auto-pdf.png" target="_blank">点击放大</a>
 
-### pdf
+![font-size](/8.2.0/auto-pdf-2.png)
+<a href="../../8.2.0/auto-pdf-2.png" target="_blank">点击放大</a>
 
 ## 联系方式
 
